@@ -10,4 +10,4 @@ In **script.js**, the interactive action is defined.
 
 This project is called *Build your city of stars*, and it has the same function as
 the example. The only difference is that instead of squares, it draws stars.
-Feel free to try it by clicking [here](https://ql816.github.io/abc-student-repo/projects/coding-foundation/coding-foundation.html).
+Feel free to try it by clicking [here](https://ql816.github.io/abc-student-repo/projects/coding-foundation/index.html).
