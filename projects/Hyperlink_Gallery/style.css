@@ -1,0 +1,57 @@
+@font-face {
+font-family: 'Berkahi Blackletter Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Berkahi Blackletter Bold'), url('Berkahi Blackletter.woff') format('woff');
+}
+
+.button {
+    background-color: rgba(1,1,1,0.5); /* Green */
+    border: none;
+    color: white;
+    padding: 80px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.smallbutton {
+    background-color: rgba(1,1,1,0.5); /* Green */
+    border: none;
+    color: white;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+body {background-image:url(https://free-paper-texture.com/p/p0005/p0005_m.jpg);}
+p {color:white;text-align:center;}
+.button {background-color: rgba(1,1,1,0.5);font-family:"Chalkduster",fantasy;font-size:30px;border-radius:4px;-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;}
+#proA:hover {
+        background-color: rgba(255,228,196,0.3);
+        color: black;
+    }
+#proB:hover {
+            background-color: rgba(47,79,79,0.5);
+            color: black;
+        }
+#proC:hover {
+                background-color: rgba(119,136,153,0.5);
+                color: black;
+            }
+#promini {background-color: rgba(1,1,1,0.5);font-family:"Chalkduster",fantasy;font-size:15px;border-radius:4px;-webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;}
+#promini:hover {
+            background-color: rgba(255,255,255,0.3);
+            color: black;
+        }
+#title {font-family:"Berkahi Blackletter Bold",arial,sans-serif;font-size:100px;color:black;}
+#sec {font-family:"Berkahi Blackletter Bold",arial,sans-serif;font-size:50px;color:black;}
+
+.Project:link {color:black;}
+.Project:visited {color:#C1CDCD;}
+.Project:hover {color:#2F4F4F;}
+.Project{background-color:rgba(255,255,255,0.3)}
