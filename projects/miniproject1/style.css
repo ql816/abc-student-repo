@@ -58,8 +58,7 @@
 input[type=range] {
   height: 43px;
   -webkit-appearance: none;
-	overflow:hidden;
-  margin: 10px 0;
+  margin: 2px 0;
   width: 600px;
 }
 input[type=range]:focus {
@@ -105,7 +104,7 @@ input[type=range]::-moz-range-thumb {
   height: 33px;
   width: 22px;
   border-radius: 7px;
-  background: #FFFFFF;
+	background: #FFFFFF;
   cursor: pointer;
 }
 input[type=range]::-ms-track {
