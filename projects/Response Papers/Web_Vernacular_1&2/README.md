@@ -11,4 +11,4 @@ Another topic in the readings that triggers my memory is the homepages and myspa
 
 ![image](https://pic.wenwen.soso.com/p/20180607/20180607065702-627815986_jpeg_515_267_26466.jpg)
 <br>
- We were so into it and when we even spend money on it to buy unique decoration. Nowadays, people are in favor of Twitter and Facebook more than myspace. At Twitter or Facebook, people usually only check the content rather than the design.
+ We were so into it and when we even spend money on it to buy unique decoration. Nowadays, people are in favor of Twitter and Facebook more than myspace. At Twitter or Facebook, people usually only check the content rather than the design. It is an interesting question to consider what will be popular in the future. 
