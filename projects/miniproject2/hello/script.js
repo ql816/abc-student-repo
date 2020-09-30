@@ -70,7 +70,7 @@ make_call.addEventListener("click",()=>{
   number_copy.innerHTML = number;
   call_window = window.open("call.html","","width = 600,height = 700 left = 300");
   setTimeout(function() {
-    window.hide();
+    window.close();
   }, 2000);
 
 })
