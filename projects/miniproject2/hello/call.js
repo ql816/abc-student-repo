@@ -10,5 +10,4 @@ document.getElementById('audio').addEventListener('playing',()=>{
   setTimeout(function() {
     window.close();}
   , 23000);
-
-},false);
+});
