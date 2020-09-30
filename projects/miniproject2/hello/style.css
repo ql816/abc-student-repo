@@ -1,4 +1,6 @@
-
+body{
+  background-image: url(cover.png);
+}
 #photo_initial {
   position:absolute;
   background: url(phone_blank.png) no-repeat center center;
