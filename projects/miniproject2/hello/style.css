@@ -17,14 +17,16 @@ body{
   background: url(calling.png) no-repeat center center;
   width: 805px;
   height:1280px;
-  z-index: 1;
+  z-index: 2;
   left:-30%;
-  top:-10%;
+  top:-2%;
 
 }
 
 audio{
+
   display:none;
+  z-index:1;
 }
 button{
    width: 100px;
@@ -43,8 +45,8 @@ button{
 
 }
 #one{
-  top:28.85em;
-  right:34.2em;
+  top:385px;
+  right:455px;
   object-fit: cover;
   background: url(1.png) no-repeat;
 }
@@ -61,8 +63,8 @@ button{
 }
 
 #two{
-  top:28.9em;
-  right:25.0em;
+  top:385px;
+  right:333px;
   object-fit: cover;
   background: url(2.png) no-repeat;
 }
@@ -79,8 +81,8 @@ button{
 }
 
 #three{
-  top:28.9em;
-  right:15.7em;
+  top:385px;
+  right:207px;
   object-fit: cover;
   background: url(3.png) no-repeat;
 }
@@ -97,8 +99,8 @@ button{
 }
 
 #four{
-  top:37.9em;
-  right:34.2em;
+  top:505px;
+  right:455px;
   object-fit: cover;
   background: url(4.png) no-repeat;
 }
@@ -115,8 +117,8 @@ button{
 }
 
 #five{
-  top:37.9em;
-  right:25.0em;
+  top:505px;
+  right:333px;
   object-fit: cover;
   background: url(5.png) no-repeat;
 }
@@ -133,8 +135,8 @@ button{
 }
 
 #six{
-  top:37.9em;
-  right:15.7em;
+  top:505px;
+  right:207px;
   object-fit: cover;
   background: url(6.png) no-repeat;
 }
@@ -152,8 +154,8 @@ button{
 
 
 #seven{
-  top:47.0em;
-  right:34.2em;
+  top:625px;
+  right:455px;
   object-fit: cover;
   background: url(7.png) no-repeat;
 }
@@ -170,8 +172,8 @@ button{
 }
 
 #eight{
-  top:47.0em;
-  right:25.0em;
+  top:625px;
+  right:333px;
   object-fit: cover;
   background: url(8.png) no-repeat;
 }
@@ -188,8 +190,8 @@ button{
 }
 
 #nine{
-  top:47.0em;
-  right:15.7em;
+  top:625px;
+  right:207px;
   object-fit: cover;
   background: url(9.png) no-repeat;
 }
@@ -206,8 +208,8 @@ button{
 }
 
 #star{
-  top:56.0em;
-  right:34.2em;
+  top:745px;
+  right:455px;
   object-fit: cover;
   background: url(*.png) no-repeat;
 }
@@ -224,8 +226,8 @@ button{
 }
 
 #zero{
-  top:56.0em;
-  right:25.0em;
+  top:745px;
+  right:333px;
   object-fit: cover;
   background: url(0.png) no-repeat;
 }
@@ -242,8 +244,8 @@ button{
 }
 
 #pound{
-  top:56.0em;
-  right:15.7em;
+  top:745px;
+  right:207px;
   object-fit: cover;
   background: url(pound.png) no-repeat;
 }
@@ -260,8 +262,8 @@ button{
 }
 
 #make_call{
-  top:65.0em;
-  right:25.0em;
+  top:865px;
+  right:333px;
   object-fit: cover;
   background: url(call.png) no-repeat;
 }
@@ -293,6 +295,10 @@ button{
 }
 
 h1{
+  font-family: "Optima";
+}
+
+h2{
   font-family: "Optima";
 }
 

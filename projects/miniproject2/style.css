@@ -21,9 +21,10 @@ button{
 
 }
 #call{
-  top:65.85em;
-  right:32.7em;
+  top:878px;
+  right:435px;
   object-fit: cover;
+  position:absolute;
 }
 
 
