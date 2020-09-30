@@ -1,0 +1,15 @@
+#box{
+  margin:auto;
+  width:100px;
+  height:100px;
+  background-color:#00a1ff;
+  margin:20px;
+  transition: transform 2s;
+  cursor:pointer;
+}
+
+
+#button{
+  transition: transform 2s;
+
+}

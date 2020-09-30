@@ -1,0 +1,299 @@
+
+#photo_initial {
+  position:absolute;
+  background: url(phone_blank.png) no-repeat center center;
+  width: 805px;
+  height:1280px;
+  z-index: 1;
+  left:-30%;
+  top:-5%;
+
+}
+
+#calling {
+  position:absolute;
+  background: url(calling.png) no-repeat center center;
+  width: 805px;
+  height:1280px;
+  z-index: 1;
+  left:-30%;
+  top:-10%;
+
+}
+
+audio{
+  display:none;
+}
+button{
+   width: 100px;
+   height:90px;
+   border-style: none;
+   position:absolute;
+   z-index:2;
+
+}
+
+#number{
+  z-index : 3;
+  position:absolute;
+  left:30%;
+  top:20%;
+
+}
+#one{
+  top:28.85em;
+  right:34.2em;
+  object-fit: cover;
+  background: url(1.png) no-repeat;
+}
+
+
+#one:hover{
+  width: 100px;
+  height:90px;
+  background: url(1!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#two{
+  top:28.9em;
+  right:25.0em;
+  object-fit: cover;
+  background: url(2.png) no-repeat;
+}
+
+
+#two:hover{
+  width: 100px;
+  height:90px;
+  background: url(2!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#three{
+  top:28.9em;
+  right:15.7em;
+  object-fit: cover;
+  background: url(3.png) no-repeat;
+}
+
+
+#three:hover{
+  width: 100px;
+  height:90px;
+  background: url(3!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#four{
+  top:37.9em;
+  right:34.2em;
+  object-fit: cover;
+  background: url(4.png) no-repeat;
+}
+
+
+#four:hover{
+  width: 100px;
+  height:90px;
+  background: url(4!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#five{
+  top:37.9em;
+  right:25.0em;
+  object-fit: cover;
+  background: url(5.png) no-repeat;
+}
+
+
+#five:hover{
+  width: 100px;
+  height:90px;
+  background: url(5!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#six{
+  top:37.9em;
+  right:15.7em;
+  object-fit: cover;
+  background: url(6.png) no-repeat;
+}
+
+
+#six:hover{
+  width: 100px;
+  height:90px;
+  background: url(6!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+
+#seven{
+  top:47.0em;
+  right:34.2em;
+  object-fit: cover;
+  background: url(7.png) no-repeat;
+}
+
+
+#seven:hover{
+  width: 100px;
+  height:90px;
+  background: url(7!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#eight{
+  top:47.0em;
+  right:25.0em;
+  object-fit: cover;
+  background: url(8.png) no-repeat;
+}
+
+
+#eight:hover{
+  width: 100px;
+  height:90px;
+  background: url(8!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#nine{
+  top:47.0em;
+  right:15.7em;
+  object-fit: cover;
+  background: url(9.png) no-repeat;
+}
+
+
+#nine:hover{
+  width: 100px;
+  height:90px;
+  background: url(9!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#star{
+  top:56.0em;
+  right:34.2em;
+  object-fit: cover;
+  background: url(*.png) no-repeat;
+}
+
+
+#star:hover{
+  width: 100px;
+  height:90px;
+  background: url(*!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#zero{
+  top:56.0em;
+  right:25.0em;
+  object-fit: cover;
+  background: url(0.png) no-repeat;
+}
+
+
+#zero:hover{
+  width: 100px;
+  height:90px;
+  background: url(0!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#pound{
+  top:56.0em;
+  right:15.7em;
+  object-fit: cover;
+  background: url(pound.png) no-repeat;
+}
+
+
+#pound:hover{
+  width: 100px;
+  height:90px;
+  background: url(pound!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#make_call{
+  top:65.0em;
+  right:25.0em;
+  object-fit: cover;
+  background: url(call.png) no-repeat;
+}
+
+
+#make_call:hover{
+  width: 100px;
+  height:90px;
+  background: url(call!.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+
+#number_copy{
+  font-size :0px;
+}
+
+#number{
+  z-index:4;
+  position:absolute;
+  left:18.0em;
+  top:17.5em;
+  color:white;
+  font-size:20px;
+  font-family:"Optima";
+}
+
+h1{
+  font-family: "Optima";
+}
+
+p{
+  font-family: "Optima";
+}

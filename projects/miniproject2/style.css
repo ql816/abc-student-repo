@@ -1,0 +1,52 @@
+
+#photo_initial {
+  position:absolute;
+  background: url(phone_initial.png) no-repeat center center;
+  width: 1000px;
+  height:1280px;
+  top: -25%;
+  left:4%;
+  z-index: 1;
+
+}
+button{
+   width: 100px;
+   height:90px;
+   background: url(initial.png) no-repeat;
+   border-style: none;
+   position:absolute;
+   z-index:2;
+
+}
+#call{
+  top:65.85em;
+  right:32.7em;
+  object-fit: cover;
+}
+
+
+#call:hover{
+  width: 100px;
+  height:90px;
+  background: url(clicked.png) no-repeat;
+  border-style: none;
+  position:absolute;
+  z-index:2;
+
+}
+
+#number{
+  font-family: "Chalkduster",fantasy;
+  font-size: 40px;
+}
+
+
+#instruction{
+  font-family: "Optima";
+  font-size: 17px;
+}
+
+h1{
+  font-family: "Optima";
+  font-size: 35px;
+}

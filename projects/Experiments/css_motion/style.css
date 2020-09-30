@@ -1,0 +1,85 @@
+body {
+  margin:0;
+}
+
+.box{
+  width:100px;
+  height:100px;
+  background-color:black;
+  margin:10px;
+}
+.box-1{
+  animation-name:spin;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-time-function:linear;
+}
+
+.box-2{
+  background-color: green;
+  animation-name:shrink;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-time-function:linear;
+
+}
+
+.box-3{
+  position:relative;
+  animation-name:moveSpin;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+}
+
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shrink{
+  0%{
+    transform:scale(1) rotate(0deg);
+    /*
+    width:100px;
+    height:100px;
+    */
+  }
+  50%{
+    transform: scale(0.2);
+    /*
+    width:30px;
+    height:30px;
+    */
+  }
+  100%{
+    transform: scale(1) rotate(360deg);
+    /*
+    width:100px;
+    height:100px;
+    */
+  }
+}
+
+@keyframes moveSpin{
+  0%{
+    left:0px;
+    transform:rotate(0deg);
+  }
+  40%{
+    left:100px;
+    transform:rotate(0deg);
+  }
+  60%{
+    left:100px;
+    transform:rotate(360deg);
+  }
+  100%{
+    left:0px;
+    transform:rotate(360deg);
+  }
+}
