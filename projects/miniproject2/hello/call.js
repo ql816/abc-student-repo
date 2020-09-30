@@ -1,4 +1,4 @@
-let my_number = document.getElementById("number")
+let my_number = document.getElementById("number");
 let number_text =  window.opener.document.getElementById("number_copy").innerHTML;
 console.log("my number is",number_text);
 my_number.innerHTML = number_text;
@@ -6,8 +6,9 @@ my_number.innerHTML = number_text;
 
 
 
-document.getElementsByTagName('audio').addEventListener('playing',()={
+document.getElementById('audio').addEventListener('playing',()=>{
   setTimeout(function() {
-    window.close();
-  }, 23000);
+    window.close();}
+  , 23000);
+
 },false);
