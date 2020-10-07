@@ -13,3 +13,8 @@ mini_2.addEventListener("click",function(){
 
   window.open("https://ql816.github.io/abc-student-repo/projects/miniproject2/");
 });
+
+mini_3.addEventListener("click",function(){
+
+  window.open("https://ql816.github.io/abc-student-repo/projects/miniproject3/");
+});
