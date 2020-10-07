@@ -1,7 +1,7 @@
 
 var mini_1 = document.getElementById('promini1');
 var mini_2 = document.getElementById('promini2');
-var mini_2 = document.getElementById('promini3');
+var mini_3 = document.getElementById('promini3');
 
 mini_1.addEventListener("click",function(){
 
