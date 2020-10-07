@@ -96,9 +96,9 @@ round3 = document.getElementById("round3");
 slider_size3.addEventListener("input",function(){
   let current_size3 = slider_size3.value;
   console.log(current_size3);
-  star_3.style["padding-right"] = current_size3 +"%";
-  round3.style["padding-right"] = current_size3 +"%";
-  console.log(star_3.style["padding-right"]);
+  star_3.style["padding-left"] = current_size3 +"%";
+  round3.style["padding-left"] = current_size3 +"%";
+
   if (onclicked){
   gain3.gain.value= current_size3/50;
 }
