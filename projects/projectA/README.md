@@ -14,7 +14,7 @@ I hope you enjoy the project!
 
 
 ## Quick Start
-Access the page by [clicking here](index.html)!
+Access the page by [clicking here](https://ql816.github.io/abc-student-repo/projects/projectA/)!
 
 ## Difficulties encountered
 The most significant difficulty I met with is to determine the time the telegraph machine is pressed. I finally worked it out by setting an interval that continuously inquiries to see how long the telegraph machine is pressed.
