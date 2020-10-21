@@ -2,7 +2,7 @@
 var mini_1 = document.getElementById('promini1');
 var mini_2 = document.getElementById('promini2');
 var mini_3 = document.getElementById('promini3');
-var mini_3 = document.getElementById('promini4');
+var mini_4 = document.getElementById('promini4');
 var proja = document.getElementById('proA');
 mini_1.addEventListener("click",function(){
 
