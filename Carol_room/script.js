@@ -22,7 +22,7 @@ mini_3.addEventListener("click",function(){
 
 mini_4.addEventListener("click",function(){
 
-  window.open("https://ql816.github.io/abc-student-repo/projects/miniproject4/README.md");
+  window.open("https://ql816.github.io/abc-student-repo/projects/miniproject4/");
 });
 
 proja.addEventListener("click",function(){
