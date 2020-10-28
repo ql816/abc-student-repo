@@ -1,0 +1,26 @@
+{
+    "name": "Seize Your Time",
+    "version": "1.0",
+    "description": "record the time you spent on each website",
+    "manifest_version": 2,
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": [ "contentscript.js"]
+      }
+    ],
+    "browser_action": {
+      "default_popup": "popup/popup.html"
+    },
+    "background": {
+  "scripts": ["background.js"],
+  "persistent":false
+},
+"permissions": [
+  "storage", "tabs"
+]
+
+  }
