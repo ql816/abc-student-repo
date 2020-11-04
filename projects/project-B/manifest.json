@@ -1,0 +1,32 @@
+{
+    "name": "CAR RACING!",
+    "version": "1.0",
+    "description": "A racing game on web pages",
+    "manifest_version": 2,
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "css":["style.css"],
+        "js": [ "contentscript.js"]
+      }
+    ],
+    "browser_action": {
+      "default_icon": "sport-car.png",
+      "default_popup": "popup/popup.html"
+    },
+    "background": {
+  "scripts": ["background.js"],
+  "persistent":false
+},
+"web_accessible_resources": [
+    "run_track.png",
+    "dash1.png",
+    "hand.png"
+  ],
+"permissions": [
+  "storage", "tabs"
+]
+  }
