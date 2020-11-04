@@ -141,6 +141,7 @@ if(can_start == 0){
   let time_passed = 0;
   let currentY = 0;
   let sent = false;
+  let time_remaining = 15;
   let game = setInterval(()=>{
     let distanceTravelled = Math.abs(currentY-prevY);
     let speed = distanceTravelled/100;
@@ -154,12 +155,15 @@ if(can_start == 0){
       max_speed = transformed_speed;
     }
     hand.style.transform = "rotate("+ degree + "deg)";
-    text.innerHTML = "Your speed is " + transformed_speed + " km/h";
+    time_remaining = time_remaining.toFixed(2);
+    text.innerHTML = "Your speed is " + transformed_speed + " km/h <br> You have "+ time_remaining+" seconds left";
 
     prevY = currentY;
     time_passed += 0.1;
+    time_remaining -= 0.1;
     //console.log("time passed:",time_passed);
     if (time_passed >= 15 && sent == false){
+      sent = true;
       console.log("maximum speed:",max_speed);
       point_earned += Math.ceil(max_speed/50);
       chrome.runtime.sendMessage({ type:'end_of_match',message: point_earned }, (response) => {
@@ -167,7 +171,6 @@ if(can_start == 0){
 
         alert("The game has ended! Your score is "+point_earned);
         console.log("response is "+response);
-        sent = true;
 
         clearInterval(game);
       });
