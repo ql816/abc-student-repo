@@ -17,3 +17,10 @@ The gif is large, please wait for it to load.
 ![image](demo.gif)
 
 ## Technical Explanation
+We start by calculating the scrolling speed after we change the cursor icon to a car and the scrollbar to a racing track. For this part, we just needed to use the difference in scrollTop divided by the time interval. We also showed the speed with a speed meter created in the content script and converted the speed to km/h, which resembles real-life cars.<br>
+
+Next, we implemented the obstacle part: the links. When your mouse is detected hovering on a link, you will lose some points. We encountered a little problem when we wanted to show the speed periodically. Since the change of y position happens during the event "onscroll", we showed the speed after a certain time interval using the difference in "timeStamp" inside the "onscroll" function. However, the frequency of displaying the speed is not guaranteed. After we asked the professor, we changed the method. We only update the position of y inside the "onscroll" function while calling the setInterval function to show the speed periodically.<br>
+
+Then it came the communication part, which I found a bit difficult. If the user ends up with a negative score, he/she will need to "fuel up," meaning the mouse needs to be over some links containing the word "fuel" in it. When the user opens a new window, he/she will be alerted that only after fueling can one continue the racing. So knowing the score of the previously opened window is important. Every time a race ends in one window, the score will be sent to the background script to store it. And on opening a new window, it will automatically ask the background script for the latest score. But overall, we solved this issue quite smoothly.<br>
+
+We're almost finished here, with all wanted features realized. Yet we wanted to make it more fun, so we let all the links move around continually, so the user needs to pay attention when he/she browses.
