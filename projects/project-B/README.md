@@ -14,6 +14,7 @@ The Internet is just like a highway. You are moving almost every moment at a hig
 
 ## Demo
 The gif is large, please wait for it to load.
+<br>
 ![image](demo.gif)
 
 ## Technical Explanation
