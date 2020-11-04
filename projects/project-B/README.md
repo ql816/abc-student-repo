@@ -1,7 +1,7 @@
 # CAR RACING ON THE INTERNET
 
 ## Description
-The Internet is just like a highway. You are moving almost every moment at a high speed. Have you ever thought of playing a car race game using your browser? Here is your chance! Download this extension to enjoy an exciting car race game on the web. You can drive through the Internet.
+The Internet is just like a highway. You are moving almost every moment at a high speed. Have you ever thought of playing a car race game using your browser? Here is your chance! Download this extension [here](https://github.com/ql816/abc-student-repo/raw/master/projects/project-B/Car_Racing.zip) to enjoy an exciting car race game on the web. You can drive through the Internet.
 <br>
 1.	This extension will show you the speed you scroll the page, with a speed meter shown on the page. It is never right to speed in reality, but the Internet might be an excellent place for you to speed up!
 <br>
