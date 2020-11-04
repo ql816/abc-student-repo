@@ -1,7 +1,7 @@
 {
     "name": "CAR RACING!",
     "version": "1.0",
-    "description": "A racing game on web pages",
+    "description": "A racing game on web pages.",
     "manifest_version": 2,
     "permissions": [
       "activeTab"
