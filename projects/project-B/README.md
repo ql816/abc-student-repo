@@ -11,6 +11,7 @@ The Internet is just like a highway. You are moving almost every moment at a hig
 <br>
 4.	At the beginning of each new match, we will check your total points earned. If the number of the points you owned is smaller than 0, then, unfortunately, you cannot take part in the match. You will need to fuel your vehicle. Try to find some links with the word “fuel” in their titles. Put your cursor on it. Your vehicle will be fueled and ready for a new game shortly. If links are used properly, they can be beneficial!
 <br>
+
 ## demo
 ![image](demo.gif)
 
