@@ -1,0 +1,8 @@
+{
+  "name": "secret garden",
+  "version": "0.0.1",
+  "description": "A secret garden",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
