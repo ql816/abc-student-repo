@@ -2,6 +2,16 @@ let submit = document.getElementById("submit");
 let course_input = document.getElementById("course");
 let look = document.getElementById("look");
 let list = document.getElementById("course_list");
+
+
+// submit.style["background-color"] = "#6600CC";
+// submit.style.border: none;
+// submit.style.color: white;
+// submit.style.padding: 15px 20px;
+// submit.style.["text-align"]: center;
+// submit.style.["text-decoration"]: none;
+// submit.style.display: inline-block;
+// submit.style.["font-size"]: 16px;
 submit.addEventListener("click", function(){
   let course = course_input.value;
   fetch("/course?course="+course);
