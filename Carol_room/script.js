@@ -4,6 +4,7 @@ var mini_2 = document.getElementById('promini2');
 var mini_3 = document.getElementById('promini3');
 var mini_4 = document.getElementById('promini4');
 var mini_5 = document.getElementById('promini5');
+var mini_6 = document.getElementById('promini6');
 var proja = document.getElementById('proA');
 var projb = document.getElementById('proB');
 mini_1.addEventListener("click",function(){
@@ -31,6 +32,12 @@ mini_5.addEventListener("click",function(){
 
   window.open("https://ql816.github.io/abc-student-repo/projects/miniproject5/");
 });
+
+mini_6.addEventListener("click",function(){
+
+  window.open("https://carol-garden-ima.glitch.me/");
+});
+
 proja.addEventListener("click",function(){
 
   window.open("https://ql816.github.io/abc-student-repo/projects/projectA/");
