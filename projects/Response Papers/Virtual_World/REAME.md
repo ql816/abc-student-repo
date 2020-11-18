@@ -1,0 +1,7 @@
+These two articles remind me of two games I frequently played a few years ago. They are The Sims and This 6. The former is a famous series of life simulation video games, and the latter is an online web game in China. This 6 aims to create the 6th continent for people to live in. It was prevalent around ten years ago.
+<br>
+These two games are both trying to create an alternative reality on the Internet. When playing The Sims, sometimes I will consider the sim an alternative myself and try to let the sim realize the dream that I could not realize in real life. This is, to some extent, similar to what Cao Fei did in RMB city.
+<br>
+The game This 6 enables players to make free trades in the game and exchange RMB with virtual money, at a currency that is (almost) decided by the players. At that time, the game was popular enough to quit their jobs in the real world and start a new career (mostly fashion designer) in the game. It was around the same time that people begin to make friends online, and netizens become popular.
+<br>
+As the Internet starts to occupy a large portion of our daily life, it is hard to tell whether life on the Internet is only a piece of illusion and fake or is another kind of reality. As many people are getting more and more attached to the virtual world and communication, it remains unknown what the virtual world will mean to human beings in the future. With the development of VR technology, it is even possible that the virtual world will be a part of reality.
