@@ -8,6 +8,7 @@ var mini_6 = document.getElementById('promini6');
 var mini_7 = document.getElementById('promini7');
 var proja = document.getElementById('proA');
 var projb = document.getElementById('proB');
+var projc = document.getElementById('proC');
 mini_1.addEventListener("click",function(){
 
   window.open("https://ql816.github.io/abc-student-repo/projects/miniproject1/");
@@ -52,4 +53,9 @@ proja.addEventListener("click",function(){
 projb.addEventListener("click",function(){
 
   window.open("https://ql816.github.io/abc-student-repo/projects/project-B/");
+});
+
+projc.addEventListener("click",function(){
+
+  window.open("https://fixed-bold-cloche.glitch.me/");
 });
