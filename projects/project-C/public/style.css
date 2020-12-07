@@ -1,6 +1,6 @@
 
 body{
-  /* background-image:  url('background.png'); */
+
   		width: 200%;
   		height: 100%;
   		position: fixed;
@@ -9,6 +9,6 @@ body{
       background-color: black;
 }
 
-/* canvas {
-  background-color: black;
-} */
+canvas {
+  background-color: rgba(60,30,50,0);
+}

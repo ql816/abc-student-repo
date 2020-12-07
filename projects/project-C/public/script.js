@@ -5,7 +5,6 @@ var ctx = canvas.getContext('2d');
 
 let hue = 0;
 
-var pathes = [];
 
 console.log(canvas);
 ctx.lineWidth = 20;
@@ -82,19 +81,11 @@ socket.on("draw_data", (data) => {
 
 
   function fadeOut() {
-    for (let i =0; i<pathes.length;i++){
-      let path = pathes[i];
-      console.log(path);
-      path.fillStyle = "rgba(255,255,255,0.1)";
-      path.fillRect(0, 0, canvas.width, canvas.height);
-      setTimeout(fadeOut,200);
-    }
+      var r = 0.3 + (Math.random()*0.1);
+      ctx.fillStyle = "rgba(0,0,0,"+r+")";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      setTimeout(fadeOut,500);
   }
+fadeOut();
 
-setInterval(fadeOut,200);
-// gatherImage() {
-//     this.imgData = this.imgData.slice(0, this.index + 1);
-//     let imgData = this.paint.getImageData(0, 0, this.width, this.height);
-//     this.imgData.push(imgData);
-//     this.index = this.imgData.length - 1;
-// }
+// setInterval(fadeOut,100);
